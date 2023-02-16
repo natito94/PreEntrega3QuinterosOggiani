@@ -94,56 +94,58 @@
       asesorarte y brindarte un plan de entrenamiento especifico para lograr tus objetivos</p>
   </main>
   <section class="ingresar mb-5">
-
-    <div class="login">
-      <button type="button" class="btn login" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Ingresar a mi cuenta
-      </button>
-    </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar a mi cuenta</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
+    <form>
+      <div class="login">
+        <button type="button" class="btn login" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Ingresar a mi cuenta
+        </button>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar a mi cuenta</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
             <div class="modal-body">
-              <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="modal-body">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                <div id="emailHelp" class="form-text">Nunca compartas tu contraseña.</div>
+              </div>
+              <div class="mb-3 form-check">
+              </div>
+              <!-- BOTON DE INGRESO -->
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-              <div id="emailHelp" class="form-text">Nunca compartas tu contraseña.</div>
+            <div class="modal-footer">
+              <button type="button" class="btn  botones">Entrar</button>
+              <button type="button" class="btn  botones">Suscribirse</button>
             </div>
-            <div class="mb-3 form-check">
-            </div>
-            <!-- BOTON DE INGRESO -->
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn  botones">Entrar</button>
-            <button type="button" class="btn  botones">Suscribirse</button>
-            <button type="button" class="btn  botones" data-bs-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
-    </div>
+    </form>
   </section>
 
   <!-- INGRESO VISTAS MAS PEQUEÑAS -->
   <section class="ingreso-b">
-    <h2 class="text-center">Ingresar a mi cuenta</h2>
-    <div class="ingreso">
-      <label for="">E-mail</label>
-      <input class="form-control border-success fondoinput" type="email" placeholder="ingrese su e-mail">
-      <label for="">Contraseña</label>
-      <input class="form-control border-success fondoinput" type="password" placeholder="ingrese su contraseña">
-      <div class="pb-2">
-        <button type="button" class="form-control btn btn-outline-success boton mt-2">Entrar</button>
-        <button type="submit" class="form-control btn btn-outline-success boton mt-2">Suscribirse</button>
+    <form>
+      <h2 class="text-center">Ingresar a mi cuenta</h2>
+      <div class="ingreso">
+        <label for="">E-mail</label>
+        <input class="form-control border-success fondoinput" type="email" placeholder="ingrese su e-mail">
+        <label for="">Contraseña</label>
+        <input class="form-control border-success fondoinput" type="password" placeholder="ingrese su contraseña">
+        <div class="pb-2">
+          <button type="button" class="form-control btn btn-outline-success boton mt-2">Entrar</button>
+          <button type="submit" class="form-control btn btn-outline-success boton mt-2">Suscribirse</button>
+        </div>
       </div>
-    </div>
+    </form>
   </section>
 
   <!-- FOOTER -->
