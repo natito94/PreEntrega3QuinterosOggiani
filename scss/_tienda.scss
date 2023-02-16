@@ -1,0 +1,12 @@
+/* SECCION DE TIENDA */
+
+.imagentienda {
+    transition: all 0.3s ease;
+    width: 50vh;
+    border-radius: 5px;
+
+    &:hover {
+        transform: scale(1.07);
+        box-shadow: 0 5px 10px -5px rgb(0 0 0 / 100%);
+    }
+}

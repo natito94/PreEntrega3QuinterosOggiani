@@ -1,0 +1,10 @@
+/* HEADER */
+
+.barranav {
+    color: $coloruno;
+    font-size: 1.2rem;
+
+    & :hover {
+        color: $colordos;
+    }
+}

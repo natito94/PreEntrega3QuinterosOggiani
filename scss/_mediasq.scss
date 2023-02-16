@@ -1,0 +1,62 @@
+/* // MEDIAS QUERRIES// */
+
+
+@media (min-width:340px) and (max-width: 768px) {
+    .carrusel {
+        display: none;
+    }
+
+    .imginicio {
+        @include centrado;
+    }
+
+    .ingreso-b {
+        background-color: $fondocuatro;
+        color: $coloruno;
+        @include centrado;
+    }
+
+    .tienda {
+        margin: 0;
+        @include centrado;
+
+    }
+
+    .ingresar {
+        display: none;
+    }
+
+    .contactanos {
+        display: none;
+    }
+
+    .contacto-b {
+        background-color: $fondocuatro;
+        color: $coloruno;
+        @include centrado;
+    }
+
+    .botones {
+        width: 30vh;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .tienda {
+        margin: 0;
+        @include centrado;
+    }
+
+    .botones {
+        width: 30vw;
+        color: $colorcuatro;
+        margin: auto;
+    }
+
+    .contacto-b {
+        display: none;
+    }
+
+}

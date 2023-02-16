@@ -1,0 +1,43 @@
+/* BOTONES */
+
+.botones {
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    color: #3fada8;
+    background-color: $fondodos;
+    border-radius: 4px;
+    align-items: center;
+    width: 12vw;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: $fondouno;
+        color: $coloruno;
+        border: $coloruno 2px;
+        transform: scale(1.05);
+    }
+}
+
+.botonesform {
+    background-color: $fondotres;
+    border: $colordos solid 1px;
+    color: $colortres;
+    transform: all 0.3s ease;
+}
+
+.boton {
+    color: $colorcuatro;
+    background-color: $fondodos;
+}
+
+.login {
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    color: $colorcuatro;
+    background-color: $fondodos;
+    border-radius: 5px;
+    align-items: center;
+    width: 20vw;
+}

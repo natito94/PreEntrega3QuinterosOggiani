@@ -1,0 +1,18 @@
+/* SECCION DE CONTACTO */
+
+.formulario {
+    @include centrado;
+    width: 30vw;
+    max-width: 400px;
+    background: linear-gradient(#000428, #19547b, #19547b, #19547b, #2c3e50);
+    border-radius: 7px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 100%);
+    color: $colortres;
+    margin: auto;
+}
+.fondoinput{
+    background-color: $fondouno;
+}
+.contacto-b {
+    display: none;
+}
