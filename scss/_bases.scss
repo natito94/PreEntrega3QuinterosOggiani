@@ -6,6 +6,15 @@
 /*  FONDO Y FUENTE DEL DOCUMENTO */
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    &::-webkit-scrollbar {
+		width: 10px;
+		background-color: rgba(1, 58, 84, 0.7);
+	}
+	&::-webkit-scrollbar-thumb {
+		width: 10px;
+		background-color: $colordos;
+		border-radius: 10px;
+	}
 }
 
 .fondodocumento {

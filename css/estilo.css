@@ -8,6 +8,15 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(1, 58, 84, 0.7);
+}
+body::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #04d643;
+  border-radius: 10px;
+}
 
 .fondodocumento {
   background-image: url(../img/carrusel/fondodoncumento.jpg);
@@ -20,28 +29,28 @@ body {
 /* FUENTES */
 h1 {
   font-size: 2rem;
-  color: black;
+  color: white;
 }
 
 h2 {
   font-size: 1.8rem;
-  color: black;
+  color: #04d643;
 }
 
 h3 {
   font-size: 1rem;
-  color: black;
+  color: white;
 }
 
 h4 {
   font-size: 0.8rem;
-  color: black;
+  color: white;
   opacity: 0.5;
 }
 
 p {
   font-size: 1.6rem;
-  color: black;
+  color: white;
 }
 
 /* BOTONES */
@@ -49,7 +58,7 @@ p {
   flex-direction: row;
   justify-content: center;
   margin: auto;
-  color: #3fada8;
+  color: #04d643;
   background-color: black;
   border-radius: 4px;
   align-items: center;
@@ -58,20 +67,20 @@ p {
 }
 .botones:hover {
   background-color: transparent;
-  color: black;
-  border: black 2px;
+  color: white;
+  border: white 2px;
   transform: scale(1.05);
 }
 
 .botonesform {
-  background-color: #000428;
+  background-color: black;
   border: #04d643 solid 1px;
-  color: white;
+  color: #04d643;
   transform: all 0.3s ease;
 }
 
 .boton {
-  color: #3fada8;
+  color: #04d643;
   background-color: black;
 }
 
@@ -79,20 +88,52 @@ p {
   flex-direction: row;
   justify-content: center;
   margin: auto;
-  color: #3fada8;
+  color: #04d643;
   background-color: black;
   border-radius: 5px;
   align-items: center;
   width: 20vw;
 }
 
+#btn-mas {
+  display: none;
+}
+
+.carrito {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.flotante {
+  background: black;
+  color: #04d643;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition: all 500ms ease;
+}
+
+.flotante:hover {
+  background-color: #04d643;
+  color: black;
+}
+
 /* HEADER */
 .barranav {
-  color: black;
+  color: white;
   font-size: 1.2rem;
 }
 .barranav :hover {
   color: #04d643;
+}
+
+.navbar {
+  background-color: rgba(1, 58, 84, 0.7);
+  border-bottom: 1px solid #04d643;
 }
 
 /* CARRUSEL DE IMAGENES */
@@ -109,6 +150,14 @@ p {
 /* SECCION PARA INGRESAR VISTAS PEQUEÑAS */
 .ingreso-b {
   display: none;
+}
+
+.enter {
+  background-color: rgba(75, 131, 156, 0.7);
+}
+
+.cuenta {
+  color: black;
 }
 
 /* SECCION DE BIENESTAR */
@@ -146,7 +195,7 @@ p {
   justify-content: center;
   width: 30vw;
   max-width: 400px;
-  background: linear-gradient(#000428, #19547b, #19547b, #19547b, #2c3e50);
+  background: linear-gradient(#19547b, #04d643);
   border-radius: 7px;
   box-shadow: 0 5px 10px -5px rgb(0, 0, 0);
   color: white;
@@ -168,12 +217,12 @@ footer {
   align-items: center;
   justify-content: center;
   border-top: 1px solid #04d643;
-  color: black;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
   list-style-type: none;
 }
 
@@ -239,7 +288,7 @@ a {
   }
   .botones {
     width: 30vw;
-    color: #3fada8;
+    color: #04d643;
     margin: auto;
   }
   .contacto-b {

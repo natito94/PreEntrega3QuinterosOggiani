@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    color: #3fada8;
+    color: $colordos;
     background-color: $fondodos;
     border-radius: 4px;
     align-items: center;
@@ -20,14 +20,14 @@
 }
 
 .botonesform {
-    background-color: $fondotres;
+    background-color: $fondodos;
     border: $colordos solid 1px;
-    color: $colortres;
+    color: $colordos;
     transform: all 0.3s ease;
 }
 
 .boton {
-    color: $colorcuatro;
+    color: $colordos;
     background-color: $fondodos;
 }
 
@@ -35,9 +35,35 @@
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    color: $colorcuatro;
+    color: $colordos;
     background-color: $fondodos;
     border-radius: 5px;
     align-items: center;
     width: 20vw;
 }
+
+#btn-mas {
+    display: none;
+}
+.carrito {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+ .flotante{
+    background: black;
+    color: $colordos;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+
+}
+.flotante:hover{
+    background-color: $colordos;
+    color: black;
+}
+
