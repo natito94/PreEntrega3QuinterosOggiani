@@ -4,7 +4,8 @@
     @include centrado;
     width: 30vw;
     max-width: 400px;
-    background: linear-gradient(#19547b, $colordos);
+    /* background: linear-gradient(#19547b, $colordos); */
+    background-color:$fondocuatro;
     border-radius: 7px;
     box-shadow: 0 5px 10px -5px rgb(0 0 0 / 100%);
     color: $coloruno;
@@ -24,4 +25,7 @@
     h2{
         color: $colordos;
     }
+}
+.cardsprofesionales {
+    display: none;
 }

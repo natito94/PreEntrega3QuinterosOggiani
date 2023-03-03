@@ -41,19 +41,21 @@
         margin-top: 15px;
     }
 
-    .profesores{
-        width: 300px;
-        height: 600px;
-    }
-    .profes{
-        height: 170px;
-        width: 300px;
-    }
-
     .botones {
         width: 30vh;
         margin: auto;
     }
+
+    .especialistas {
+        display: none;
+    }
+
+    .cardsprofesionales {
+        display: flex;
+        justify-content: center;
+
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
