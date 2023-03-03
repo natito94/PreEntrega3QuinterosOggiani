@@ -160,6 +160,15 @@ p {
   color: black;
 }
 
+.card {
+  margin: auto;
+  background-color: rgba(1, 58, 84, 0.7);
+}
+
+.imagencard {
+  height: 170px;
+}
+
 /* SECCION DE BIENESTAR */
 .foro {
   display: flex;
