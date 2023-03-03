@@ -14,7 +14,13 @@
 
 .card{
     margin: auto;
-    background-color: rgba(1, 58, 84, 0.7);
+    background-color: $fondocuatro;
+    h2{
+        color: $colordos;
+    }
+    p{
+        font-size: 1.2rem;
+    }
 }
 
 .imagencard{
